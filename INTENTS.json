@@ -1,0 +1,19 @@
+{
+  "intents" : [
+    {
+      "intent" : "GetGithubFollowerCount"
+    },
+    {
+      "intent" : "GetGithubRepositoryCount"
+    },
+    {
+      "intent" : "GetGithubRepositoryCountByLanguage",
+      "slots" : [
+        {
+          "name" : "Language",
+          "type" : "LIST_OF_LANGUAGES"
+        }
+      ]
+    }
+  ]
+}

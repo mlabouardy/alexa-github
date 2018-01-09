@@ -1,0 +1,11 @@
+GetGithubFollowerCount how many followers do I have
+GetGithubFollowerCount current followers
+GetGithubFollowerCount number of followers
+
+GetGithubRepositoryCount how many repositories do I have
+GetGithubRepositoryCount number of repositories
+GetGithubRepositoryCount current repositories
+
+GetGithubRepositoryCountByLanguage how many {Language} repositories
+GetGithubRepositoryCountByLanguage number of {Language} repositories
+GetGithubRepositoryCountByLanguage current {Language} repositories
