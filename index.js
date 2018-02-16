@@ -89,13 +89,13 @@ getRepositoryCountByLanguage = (language, callback) =>{
 buildResponse = (outputText) => {
   return {
     version: "1.0",
-    sessionAttributes: {
+    response: {
       outputSpeech: {
         type: "PlainText",
         text: outputText
       },
       shouldEndSession: true
     },
-    response: {}
+    sessionAttributes: {}
   }
 }
